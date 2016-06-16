@@ -1,0 +1,28 @@
+{
+  "name": "myprtfl-url=shortener",
+  "version": "0.0.3",
+  "description": "myprtfl's URL Shortener Microservice",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "express": "4.13.3",
+    "mongodb": "^2.1.21",
+    "valid-url": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myprtfl/urlshortener"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "GPL"
+}
