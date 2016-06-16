@@ -1,0 +1,8 @@
+{
+  "name": "myprtfl-url=shortener",
+  "description": "myprtfl's URL Shortener Microservice",
+  "repository": "https://github.com/myprtfl/urlshortener",
+  "logo": "https://avatars1.githubusercontent.com/u/17084987",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
