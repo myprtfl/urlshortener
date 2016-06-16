@@ -7,10 +7,10 @@ When I visit that shortened URL, it will redirect me to my original link.
 
 ##Usage:
 Get a shortened URL in the JSON response:
-https://gall.ga/v1/getshort/https://www.example.com
+https://short.eu.org/v1/getshort/https://www.example.com
 
 Get original URL in the JSON response form short URL ID:
-https://gall.ga/v1/getoriginal/1
+https://short.eu.org/v1/getoriginal/1
 
 Use the shortended URL:
-https://gall.ga/1
+https://short.eu.org/1
