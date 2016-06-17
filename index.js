@@ -98,13 +98,13 @@ router.get(['/v1/:id', '/:id'], function(request, response) {
 router.get('/v1/getoriginal/:id', function(request, response) {
   var result = {};
   var id = +request.params.id;
-  result.short_url = urlbase + request.params.id;
 
   function resultHandler(url){
     console.log(request.path, url);
     if(url==''){
-      result.original_url = '';
+      result.err = 'No Such Short URL';
     }else{
+      result.short_url = urlbase + request.params.id;
       result.original_url = url;
     }
     response.setHeader('Content-Type', 'application/json');
