@@ -7,10 +7,10 @@ When I visit that shortened URL, it will redirect me to my original link.
 
 ##Usage:
 Get a shortened URL in the JSON response:
-https://short.eu.org/v1/getshort/https://www.example.com
+https://otu.herokuapp.com/v1/getshort/https://www.example.com
 
 Get original URL in the JSON response form short URL ID:
-https://short.eu.org/v1/getoriginal/1
+https://otu.herokuapp.com/v1/getoriginal/1
 
 Use the shortended URL:
-https://short.eu.org/1
+https://otu.herokuapp.com/1
