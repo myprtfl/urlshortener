@@ -1,0 +1,27 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "##User Story: I can pass a URL as a parameter and I will receive a shortened URL in the JSON response. If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead. When I visit that shortened URL, it will redirect me to my original link.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "express": "4.13.3",
+    "mongodb": "^2.1.21",
+    "pg": "4.5.5",
+    "valid-url": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myprtfl/urlshortener.git"
+  },
+  "author": "myprtfl",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/myprtfl/urlshortener/issues"
+  },
+  "homepage": "https://github.com/myprtfl/urlshortener#readme"
+}

@@ -1,6 +1,6 @@
 {
-  "name": "myprtfl-url=shortener",
-  "description": "myprtfl's URL Shortener Microservice",
+  "name": "urlshortener",
+  "description": "##User Story: I can pass a URL as a parameter and I will receive a shortened URL in the JSON response. If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead. When I visit that shortened URL, it will redirect me to my original link.",
   "repository": "https://github.com/myprtfl/urlshortener",
   "logo": "https://avatars1.githubusercontent.com/u/17084987",
   "keywords": ["node", "express", "static"],
